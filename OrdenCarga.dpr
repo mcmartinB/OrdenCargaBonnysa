@@ -3,7 +3,7 @@ program OrdenCarga;
 uses
   Forms,
   UFOrdenCarga in 'UFOrdenCarga.pas' {FOrdenCarga},
-  UDOrdenCarga in 'UDOrdenCarga.pas' {DOrdenCarga: TDataModule},
+  UDOrdenCarga in 'UDOrdenCarga.pas' {q: TDataModule},
   UFCalendario in 'UFCalendario.pas' {FCalendario},
   UFSuministros in 'UFSuministros.pas' {FSuministros},
   UDDescripciones in 'UDDescripciones.pas' {DDescripciones: TDataModule},

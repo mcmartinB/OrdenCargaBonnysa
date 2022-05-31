@@ -43,7 +43,7 @@
       <DesignClass>TDataModule</DesignClass>
     </DCCReference>
     <DCCReference Include="UDOrdenCarga.pas">
-      <Form>DOrdenCarga</Form>
+      <Form>q</Form>
       <DesignClass>TDataModule</DesignClass>
     </DCCReference>
     <DCCReference Include="UDTraspasar.pas">

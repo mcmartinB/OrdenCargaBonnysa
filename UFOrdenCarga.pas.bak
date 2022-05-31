@@ -422,8 +422,7 @@ type
     procedure PDetalleEnter(Sender: TObject);
     procedure QOrdenCargaLBeforeInsert(DataSet: TDataSet);
     procedure QOrdenCargaLBeforeEdit(DataSet: TDataSet);
-    procedure hora_occExit(Sender: TObject);  
-    procedure producto_oclExit(Sender: TObject);
+    procedure hora_occExit(Sender: TObject);
     
 
   private
@@ -2109,8 +2108,7 @@ begin
       QOrdenCargaL.FieldByName('es_peso_real_ocl').AsInteger:= 1
     else
       QOrdenCargaL.FieldByName('es_peso_real_ocl').AsInteger:= 0;
-    end;
-  end;  
+    end;    
 end;
 
 procedure TFOrdenCarga.producto_oclExit(Sender: TObject);
